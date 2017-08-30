@@ -1,5 +1,8 @@
-$(document).ready(function(){$(".clients").click(function(n){n.preventDefault(),href=$(this).attr("href"),$(".alumni-locator").animate({marginLeft:"7.5%"},700,function(){window.location="/clients"})}),$("#right").click(function(n){n.preventDefault(),href=$(this).attr("href"),$(".clients-locator").animate({marginLeft:"89%"},700,function(){window.location="/alumni"})});var n=$(".menu-container");$(".menu-bar").click(function(){parseInt(n.css("marginTop"))<0?n.animate({marginTop:"0px"},300):n.animate({marginTop:"-250px"},300)})});
 
+$(document).ready(function(){
+    $(".clients").click(function(n){n.preventDefault(),href=$(this).attr("href"),$(".alumni-locator").animate({marginLeft:"7.5%"},700,function(){window.location="/clients"})}),$("#right").click(function(n){n.preventDefault(),href=$(this).attr("href"),$(".clients-locator").animate({marginLeft:"89%"},700,function(){window.location="/alumni"})});var n=$(".menu-container");$(".menu-bar").click(function(){parseInt(n.css("marginTop"))<0?n.animate({marginTop:"0px"},300):n.animate({marginTop:"-250px"},300)});
+    
+    
 var clicks = 0;
 var ctaButton = document.getElementById('#cta');
 var toggle = document.getElementById('toggle');
@@ -39,5 +42,7 @@ $('#toggle').click(function() {
         $('#line2').removeClass('toggle-line2-active');
         $('#line3').removeClass('toggle-line3-active');
     }
-    console.log('yes');
+    
+});
+                             
 });

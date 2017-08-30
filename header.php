@@ -25,7 +25,7 @@
         
         <nav class="site-nav">
 			<ul>
-              <li class="clients"><a href="http://appstatedesign.com/clients/">Looking for<br>a designer?</a></li>
+              <li class="clients"></li>
               <li id="right"><a href="http://appstatedesign.com/alumni/">connect<br>with alumni</a></li>
             </ul>
             
